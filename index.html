@@ -4,25 +4,38 @@
         <meta charset="UTF-8">
         <title>Mason Conelius - Portfolio & Personal Hub</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
     </head>
 
-    <body>
-        <nav class="sidebar">
+    <!-- Hero banner video -->
+    <section class="hero">
+    <video autoplay muted loop>
+        <source src="assets/videos/bubbles.mp4" type="video/mp4">
+    </video>
+    <div class="hero-text">
+        <h1>Mason Conelius</h1>
+        <p>Portfolio & Personal Hub</p>
+    </div>
+    </section>
+
+    <!-- Sidebar -->
+    <nav class="sidebar">
         <h2>Sidebar</h2>
         <ul>
             <li><a href="#intro">Welcome</a></li>
             <li><a href="#employers">For Employers</a></li>
             <li><a href="#browse">Explore The Site</a></li>
             <li><a href="#roadmap">What's Coming Next</a></li>
+            <li><a href="#connectiontree">Connection Tree</a></li>
         </ul>
-        </nav>
+    </nav>
 
- <!-- Main content -->
+    <!-- Main content -->
     <main class="content">
 
         <!-- Introduce myself and the site -->
         <section id="intro">
-            <h1>Welcome To My Digital Space</h1>
+            <h1>Welcome To My Digital Space!</h1>
             <p>
                 Hi! My name is Mason Conelius and I am an aspiring Software Engineer/Data Analyst. I'm currently studying a Bachelor of Software Engineering <br> 
                 at Torrens University Australia. I made this static website with the goal of having an online portfolio demonstrating my knowledge. However <br>
@@ -37,14 +50,16 @@
             </p>
         </section>
 
-        <!-- For employers section -->
+        <!-- For employers -->
         <section id="employers">
             <h2>For Employers</h2>
             <p>
                 For those interested in my education, skills, and work experience, please visit my Education Page. 
                 <br> There you will also find a downloadable pdf of my resume.
             </p>
-            <li> <a href="education.html">Education</a></li>
+            <a href="education.html" class="button">
+            View Education & Experience
+            </a>
         </section>
         
         <!-- Browse other pages -->
@@ -77,5 +92,12 @@
             </ul>
 
         </section>
+
+        <section id="connectiontree">
+            <h2>Connection Tree</h2>
+
+
+        </section>
+
     </main>
 </html>
