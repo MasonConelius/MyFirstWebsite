@@ -2,22 +2,80 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Mason Conelius' Web Portfolio</title>
+        <title>Mason Conelius - Portfolio & Personal Hub</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
 
     <body>
-        <h1>Mason Conelius' Portfolio</h1>
-            <h2>Hi, I am a Web Developer</h2>
-        <hr />
-                <h3><a href="./public/movie-ranking.html">Movie Ranking Project</a></h3>
-        <img src="./assets/images/mymovies.png" height="200" alt="movie ranking project screenshot" />
+        <nav class="sidebar">
+        <h2>Sidebar</h2>
+        <ul>
+            <li><a href="#intro">Welcome</a></li>
+            <li><a href="#employers">For Employers</a></li>
+            <li><a href="#browse">Explore The Site</a></li>
+            <li><a href="#roadmap">What's Coming Next</a></li>
+        </ul>
+        </nav>
 
-                <h3><a href="./public/birthday-invite.html">Birthday Invite Project</a></h3>
-        <img src="./assets/images/mybirthday.png" height="200" alt="birthday invite project screenshot" />
+ <!-- Main content -->
+    <main class="content">
 
-        <hr />
-        <a href="./public/about.html">About Me</a>
-        <a href="./public/contact.html">Contact Me</a>
-    </body>
+        <!-- Introduce myself and the site -->
+        <section id="intro">
+            <h1>Welcome To My Digital Space</h1>
+            <p>
+                Hi! My name is Mason Conelius and I am an aspiring Software Engineer/Data Analyst. I'm currently studying a Bachelor of Software Engineering <br> 
+                at Torrens University Australia. I made this static website with the goal of having an online portfolio demonstrating my knowledge. However <br>
+                while planning and learning the ropes of web development, I realised I could also incorporate many of my passions, turning this site into both <br>
+                a portfolio and a passion project which now acts as an outlet for me to express my opinions toward my favourite things. <br>
+                My various passions that I decided to include into this project are: gaming, music, tv shows, esports, soccer/football, and travelling. <br>
+                I really enjoy the organisational aspect of creating this website, including the correct hierarchical order of headings and subheadings, <br>
+                determining appropriate colour patterns and design layouts, and expressing my opinions on the categories covered through writing them down <br>
+                and creating tables. For me, I view this site as both a professional portfolio, and as a healthy outlet to vent my frustrations and/or enjoyment <br>
+                on a variety of topics that I follow closely. Even if nobody end up viewing this peronsal wiki, I still find it comforting believing there are <br>
+                people out there that are lsitening to what I have to say about what I find interesting and entertaining. 
+            </p>
+        </section>
+
+        <!-- For employers section -->
+        <section id="employers">
+            <h2>For Employers</h2>
+            <p>
+                For those interested in my education, skills, and work experience, please visit my Education Page. 
+                <br> There you will also find a downloadable pdf of my resume.
+            </p>
+            <li> <a href="education.html">Education</a></li>
+        </section>
+        
+        <!-- Browse other pages -->
+        <section id="browse">
+            <h2>Explore The Site</h2>
+            <p>
+                Now it is time to browse this website and join me as I yap about everything I love. 
+            </p>
+            <ul>
+                <li><a href="gaming.html">Gaming</a></li>
+                <li><a href="esports.html">Esports</a></li>
+                <li><a href="travel.html">Travel</a></li>
+                <li><a href="shows.html">Shows</a></li>
+                <li><a href="soccer.html">Soccer</a></li>
+                <li><a href="music.html">Music</a></li>
+            </ul>
+        </section>
+
+        <!-- Site roadmap -->
+        <section id="roadmap">
+            <h2>What's Coming Next</h2>
+            <p>
+                I acknowledge this site has room for improvement, but as a first project I am proud of it. <br>
+                The future improvements I would like to implement are as follows:
+            </p>
+            <ul>
+                <li>Create a css file and include a sidebar, hero image, and basic background</li>
+                <li>Create the hero banner for my main page</li>
+                <li>Start and finish the education page</li>
+            </ul>
+
+        </section>
+    </main>
 </html>
